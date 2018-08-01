@@ -1,0 +1,17 @@
+body {
+  background-color: #89afaa;
+  width: 100%;
+}
+
+#title {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+#survey-form {
+  background-color: #cbcbcb;
+  border-radius: 5px;
+  min-width: 100px;
+  min-height: 500px;
+
+}
