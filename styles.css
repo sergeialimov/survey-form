@@ -1,17 +1,21 @@
 body {
   background-color: #89afaa;
   width: 100%;
+  font-family: sans-serif;
 }
 
 #title {
-  font-family: sans-serif;
   text-align: center;
 }
 
 #survey-form {
-  background-color: #cbcbcb;
+  background-color: #f6f6f6;
   border-radius: 5px;
   min-width: 100px;
   min-height: 500px;
+}
 
+#description {
+  padding-top: 20px;
+  text-align: center;
 }
