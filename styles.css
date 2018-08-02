@@ -11,14 +11,16 @@ body {
   background-color: #f6f6f6;
   border-radius: 5px;
   max-width: 900px;
+  max-width: 70%;
   height: 1000px;
   margin: auto;
 }
 
 #description {
   padding-top: 35px;
-  /* padding-bottom: -20px; */
+  padding-left: 35px;
   text-align: center;
+  max-width: 80%;
 }
 
 #form-body {
@@ -33,6 +35,9 @@ label {
   text-align: right;
   margin-right: 40px;
   margin-top: 20px;
+  /* max-width: 50%; */
+  margin-left: 20px;
+
 }
 
 input {
@@ -49,6 +54,18 @@ input {
   padding-right: 5px;
 }
 
+select {
+  margin-left: -20px;
+  margin-top: 20px;
+  width: 25%;
+  height: 30px;
+}
+
+input[type="radio"] {
+  margin-left: -20px;
+  text-align: left;
+}
+
 @media (max-width: 500px) {
   #survey-form {
     max-width: 85%;
@@ -58,7 +75,7 @@ input {
     grid-template-columns: 1fr;
   }
 
-  label, input {
+  label, input, select {
     max-width: 80%;
     margin-top: 10px;
   }
@@ -66,9 +83,15 @@ input {
   label {
     text-align: left;
     margin-left: 20px;
+    margin-top: 20px;
   }
 
   input {
     margin-left: 20px;
+  }
+
+  select {
+    margin-left: 20px;
+
   }
 }
