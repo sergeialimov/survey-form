@@ -21,6 +21,7 @@
 
           <label for "role">Which option best describes your current role?</label>
           <select id="role">
+            <option value="select-an-option" selected disabled>Select an option</option>
             <option value="student">Student</option>
             <option value="fullTimeJob">Full time job</option>
             <option value="fullTimeLearner">Full time learner</option>
@@ -45,7 +46,8 @@
           </div>
 
           <label for "role">What do you like most in FCC:</label>
-          <select id="like">
+          <select id="like" value="Select an option">
+            <option value="select-an-option" selected disabled>Select an option</option>
             <option value="challenges">Challenges</option>
             <option value="projects">Projects</option>
             <option value="community">Community</option>
@@ -97,12 +99,14 @@
               <label class="radio-label" for="improve">Forum</label>
             </div>
           </div>
-          <label id="recommendation-label">* How likely is that you would recommend freeCodeCamp to a friend?</label>
+          <label id="recommendation-label">Any Comments or Suggestions?</label>
           <textarea name="comment" rows="6" cols="10">Enter your comment here...</textarea>
         </div>
-      </div>
-    </form>
-  </main>
+        <div class="wrapper">
+          <button class="button" type="submit" >Submit</button>
+        </div>
+      </form>
+    </main>
   </body>
 </html>
 

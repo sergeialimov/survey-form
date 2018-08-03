@@ -105,6 +105,27 @@ textarea {
   color: gray;
 }
 
+.wrapper {
+  text-align: center;
+}
+
+.button {
+  width: 100px;
+  height: 40px;
+  margin-top: 30px;
+  border-radius: 5px;
+  background-color: #59ace0;
+  font-size: 18px;
+  color: white;
+  border-style: none;
+
+  /* position: absolute; */
+  /* top: 50%; */
+  /* margin: auto;
+  /* text-align: center; */
+  /* justify-self: center; */
+}
+
 @media (max-width: 500px) {
   #survey-form {
     max-width: 85%;
