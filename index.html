@@ -10,7 +10,6 @@
       <form id="survey-form">
         <p id="description">Let us know how we can improve freeCodeCamp</p>
         <div id="form-body">
-
           <label for="name">* Name:</label>
           <input type="text" id="name" placeholder="Enter your name" required size="45">
 
@@ -28,8 +27,87 @@
             <option value="preferNotToSay">Prefer not to say</option>
             <option value="other">Other</option>
           </select>
+
+          <label id="recommendation-label">* How likely is that you would recommend freeCodeCamp to a friend?</label>
+          <div class="radio-group">
+            <div class="radio">
+              <input class="radio-input" id="definitely" type="radio" name="recommendation">
+              <label class="radio-label" for="recommendation">Definitely</label>
+            </div>
+            <div class="radio">
+              <input class="radio-input" id="maybe" type="radio" name="recommendation">
+              <label class="radio-label" for="recommendation">Maybe</label>
+            </div>
+            <div class="radio">
+              <input class="radio-input" id="notSure" type="radio" name="recommendation">
+              <label class="radio-label" for="recommendation">Not sure</label>
+            </div>
+          </div>
+
+          <label for "role">What do you like most in FCC:</label>
+          <select id="like">
+            <option value="challenges">Challenges</option>
+            <option value="projects">Projects</option>
+            <option value="community">Community</option>
+            <option value="open-source">Open Source</option>
+          </select>
+
+          <label id="recommendation-label">Things that should be improved in the future (Check all that apply):</label>
+          <div class="radio-group">
+            <div class="radio">
+              <input class="radio-input" id="front-end-projects" type="checkbox" name="improve">
+              <label class="radio-label" for="improve">Front-end Projects</label>
+            </div>
+            <div class="radio">
+              <input class="radio-input" id="back-end-projects" type="checkbox" name="improve">
+              <label class="radio-label" for="improve">Back-end Projects</label>
+            </div>
+            <div class="radio">
+              <input class="radio-input" id="data-visualization" type="checkbox" name="improve">
+              <label class="radio-label" for="improve">Data Visualization</label>
+            </div>
+
+            <div class="radio">
+              <input class="radio-input" id="challenges" type="checkbox" name="improve">
+              <label class="radio-label" for="improve">Challenges</label>
+            </div>
+            <div class="radio">
+              <input class="radio-input" id="open-source-community" type="checkbox" name="improve">
+              <label class="radio-label" for="improve">Open Source Community</label>
+            </div>
+            <div class="radio">
+              <input class="radio-input" id="gitter-help-rooms" type="checkbox" name="improve">
+              <label class="radio-label" for="improve">Gitter help rooms</label>
+            </div>
+            <div class="radio">
+              <input class="radio-input" id="videos" type="checkbox" name="improve">
+              <label class="radio-label" for="improve">Videos</label>
+            </div>
+
+            <div class="radio">
+              <input class="radio-input" id="city-meetups" type="checkbox" name="improve">
+              <label class="radio-label" for="improve">City Meetups</label>
+            </div>
+            <div class="radio">
+              <input class="radio-input" id="wiki" type="checkbox" name="improve">
+              <label class="radio-label" for="improve">Wiki</label>
+            </div>
+            <div class="radio">
+              <input class="radio-input" id="forum" type="checkbox" name="improve">
+              <label class="radio-label" for="improve">Forum</label>
+            </div>
+          </div>
+          <label id="recommendation-label">* How likely is that you would recommend freeCodeCamp to a friend?</label>
+          <textarea name="comment" rows="6" cols="10">Enter your comment here...</textarea>
+        </div>
       </div>
     </form>
   </main>
   </body>
 </html>
+
+
+
+<!-- <label id="recommendation-dropdown" for="recommendation">
+  <input id="notSure" type="radio" name="recommendation">Not sure
+</label> -->
