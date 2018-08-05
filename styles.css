@@ -59,24 +59,24 @@ body {
   margin-bottom: 10px;
 }
 
-.radio-group {
+.radio-group, .checkbox-group {
   margin-top: 0px;
   /* padding-top: -5px; */
   align-self: flex-start;
   /* vertical-align: top; */
 }
 
-.radio-label {
+.radio-label, .checkbox-label {
   /* vertical-align: middle; */
-  margin-top: 20px;
+  /* margin-top: 20px; */
   /* margin-left: 0px; */
 }
 
-.radio-item {
+.radio-item, .checkbox-item {
   /* margin-top: -20px; */
 }
 
-.radio-input {
+.radio-input, .checkbox-input {
   /* margin-left: -10px; */
   padding-left: -10px;
   /* margin-top: 10px; */
@@ -158,9 +158,9 @@ textarea {
     margin-top: 10px;
   }
 
-  label {
+  .labels {
     text-align: left;
-    margin-top: 20px;
+    /* margin-top: 20px; */
   }
 
   .radio-item {
